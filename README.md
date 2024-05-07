@@ -21,19 +21,14 @@ Preprocessing (loading the data, making any necessary adjustments etc.) - **Clar
 
 *Stage 2: Building the RSs*
 
-Model 1: Calculation of similarity scores for “book descriptions” feature - **Andrea & Anne Marijn**
-
-Model 2: Calculation of similarity scores for “book rating” feature + implementing number of “written reviews” feature as weight to the vectors - **Tereza**
-
-Model 3: Combination of scores for “book description” and “book rating” - **Clarice**
+- Model 1: Calculation of similarity scores for “book descriptions” feature - **Andrea & Anne Marijn**
+- Model 2: Calculation of similarity scores for “book rating” feature + implementing number of “written reviews” feature as weight to the vectors - **Tereza**
+- Model 3: Combination of scores for “book description” and “book rating” - **Clarice**
 
 *Stage 3: Comparison* - **Clarice, Andrea, Anne Marijn, Tereza**
 
-Our RS input: book title
-
-Our RS output: 3 times top 3 recommended book titles (1 for each model)
-
-To-Do:
+- Our RS input: book title
+- Our RS output: 3 times top 3 recommended book titles (1 for each model)
 
 From our RS, we collect:
 - The output’s 3 title
