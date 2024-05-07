@@ -16,17 +16,25 @@ https://www.kaggle.com/datasets/bahramjannesarr/goodreads-book-datasets-10m/data
 
 ## A tentative list of milestones for the project
 *Stage 1: Preprocessing*
-Preprocessing (loading the data, making any necessary adjustments etc.) - Clarice
+
+Preprocessing (loading the data, making any necessary adjustments etc.) - **Clarice**
 
 *Stage 2: Building the RSs*
-Model 1: Calculation of similarity scores for “book descriptions” feature - Andrea & Anne Marijn
-Model 2: Calculation of similarity scores for “book rating” feature + implementing number of “written reviews” feature as weight to the vectors - Tereza
-Model 3: Combination of scores for “book description” and “book rating” - Clarice
 
-*Stage 3: Comparison* - Clarice, Andrea, Anne Marijn, Tereza
+Model 1: Calculation of similarity scores for “book descriptions” feature - **Andrea & Anne Marijn**
+
+Model 2: Calculation of similarity scores for “book rating” feature + implementing number of “written reviews” feature as weight to the vectors - **Tereza**
+
+Model 3: Combination of scores for “book description” and “book rating” - **Clarice**
+
+*Stage 3: Comparison* - **Clarice, Andrea, Anne Marijn, Tereza**
+
 Our RS input: book title
+
 Our RS output: 3 times top 3 recommended book titles (1 for each model)
+
 To-Do:
+
 From our RS, we collect:
 - The output’s 3 title
 - Manually ⇒ The output’s books’ 3
@@ -36,4 +44,4 @@ From Goodreads’ RS, we collect:
 - Manually ⇒ The 3 corresponding genres of the top 3 recommended books provided by Goodreads
 
 ## Documentation
--
+x
